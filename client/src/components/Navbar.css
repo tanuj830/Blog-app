@@ -1,0 +1,53 @@
+/* 
+.linkToHome{
+    text-decoration: none;
+}
+.linkToHome:hover{
+    color: white;
+}
+.leftPart h4 b{
+    object-fit: contain;
+}
+.middle{ */
+    /* background-color: aqua; */
+    /* width:30%;
+}
+.bt{
+    margin-left: 1em;
+}
+.rightPart{
+    object-fit: contain;
+    display: flex;
+}
+.rightPart input{
+    margin-right: 4px;
+    border-radius: 6px;
+}
+.icon{
+    background-color: aliceblue;
+    width: 30px;
+    height: 29px;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-top: 2px;
+    background-color: rgb(255, 238, 0);
+} */
+
+.collapse{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:575px) {
+    
+    .collapse
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .navbar-item
+    {
+        margin-top: 1em;
+    }
+}

@@ -1,0 +1,45 @@
+  body { /*
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("http://designazure.com/wp-content/uploads/2018/05/three-js-canvas-particles-waves.png"); */
+
+background-color: "#e8c3b9";
+} */
+.text{
+    font-weight: 700;
+    font-size: 4em;
+}
+/* 
+@media(max-width:828){
+    body{
+        background-size: contain;
+    }
+} */
+.containerr{
+    /* background-color: rgb(238, 231, 231); */
+    background-color: #61616123;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.button{
+    border-radius: 100px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    transition: 0.4s;
+    border: white;
+}
+.button:hover{
+    background-color:  rgb(238, 231, 231);
+    color: black;
+    border: solid 1px black;
+    /* box-shadow: 8em; */
+}
+
+@media screen and (max-width: 767px) {
+    
+    .button b{
+     font-size: small;
+     padding: 12px;
+    }
+    }
